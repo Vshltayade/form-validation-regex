@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+div{
+    background-color: rgb(64, 247, 134);
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    background-color: white;
+    padding: 40px;
+    margin: 38px;
+}
+
+form p{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+label{
+    color: rgb(0, 41, 124);
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+input{
+    width: 400px;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: -4px;
+    outline: none;
+    border: 1px ridge gray;
+    border-radius: 3px;
+    font-size: 16px;
+    position: relative;
+}
+
+small{
+    color: red;
+}
+
+span{
+    cursor: pointer;
+    position: relative;
+    left: -25px;
+}
+
+i{
+    color: #000;
+}
+
+button{
+    background-color: rgb(0, 41, 124);
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
