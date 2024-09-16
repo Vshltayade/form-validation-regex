@@ -6,7 +6,7 @@
 }
 
 div{
-    background-color: rgb(64, 247, 134);
+    background: linear-gradient(to right, rgb(64, 247, 134),#74e907, rgb(7, 233, 210));
     display: flex;
     justify-content: center;
 }
